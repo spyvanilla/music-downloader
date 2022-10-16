@@ -25,3 +25,34 @@ C:\Users\Levi Barros\music-downloader\obj\Debug\net6.0\refint\music-downloader.d
 C:\Users\Levi Barros\music-downloader\obj\Debug\net6.0\music-downloader.pdb
 C:\Users\Levi Barros\music-downloader\obj\Debug\net6.0\music-downloader.genruntimeconfig.cache
 C:\Users\Levi Barros\music-downloader\obj\Debug\net6.0\ref\music-downloader.dll
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.csproj.AssemblyReference.cache
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.AssemblyInfoInputs.cache
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.AssemblyInfo.cs
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.csproj.CoreCompileInputs.cache
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.dll
+C:\Users\User\music-downloader\obj\Debug\net6.0\refint\music-downloader.dll
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.pdb
+C:\Users\User\music-downloader\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\appsettings.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\client\package-lock.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\client\package.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\client\public\manifest.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\client\tsconfig.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\music-downloader.exe
+C:\Users\User\music-downloader\bin\Debug\net6.0\music-downloader.deps.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\music-downloader.runtimeconfig.json
+C:\Users\User\music-downloader\bin\Debug\net6.0\music-downloader.dll
+C:\Users\User\music-downloader\bin\Debug\net6.0\music-downloader.pdb
+C:\Users\User\music-downloader\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\music-downloader\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\music-downloader\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\music-downloader\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\music-downloader\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\music-downloader\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\music-downloader\obj\Debug\net6.0\scopedcss\bundle\music-downloader.styles.css
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.csproj.CopyComplete
+C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.genruntimeconfig.cache
+C:\Users\User\music-downloader\obj\Debug\net6.0\ref\music-downloader.dll
