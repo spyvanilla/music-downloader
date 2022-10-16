@@ -45,6 +45,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "YoutubeDLSharp": {
+              "target": "Package",
+              "version": "[0.4.2, )"
             }
           },
           "imports": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v3IjVexdOHo9ZJkIOmB0AIt+ZHt7Kl0AWxYlWReTHD213syIQkSrB3+3USraAVP4x6/2kQwX2WR/fii41CeOQA==",
+  "dgSpecHash": "6iBKEU+e7enfcHqu7WfF4S8L88G6mUguZTjV9ch0LbAorDwB+91ixqIWS17BpZYBYuay8IJwe1b7mEv96slxxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Levi Barros\\music-downloader\\music-downloader.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "C:\\Users\\Levi Barros\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Levi Barros\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Levi Barros\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Levi Barros\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Levi Barros\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Levi Barros\\.nuget\\packages\\youtubedlsharp\\0.4.2\\youtubedlsharp.0.4.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -101,6 +101,22 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "YoutubeDLSharp/0.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/YoutubeDLSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/YoutubeDLSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -256,12 +272,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "YoutubeDLSharp/0.4.2": {
+      "sha512": "stCv177Vm2vc0a8UZiOZ7RNGcAmYL1ygqrQVxobjFmpExGBQVVcWwEJKWdK+K7DMLWowJrrZMuQB12iaVOQ8GA==",
+      "type": "package",
+      "path": "youtubedlsharp/0.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/YoutubeDLSharp.dll",
+        "lib/net45/YoutubeDLSharp.xml",
+        "lib/netstandard2.0/YoutubeDLSharp.dll",
+        "lib/netstandard2.0/YoutubeDLSharp.xml",
+        "youtubedlsharp.0.4.2.nupkg.sha512",
+        "youtubedlsharp.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Newtonsoft.Json >= 13.0.1",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "YoutubeDLSharp >= 0.4.2"
     ]
   },
   "packageFolders": {
@@ -308,6 +340,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "YoutubeDLSharp": {
+            "target": "Package",
+            "version": "[0.4.2, )"
           }
         },
         "imports": [
