@@ -2,5 +2,6 @@ h1 {
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     color: rgb(57, 202, 57);
-    text-shadow: 2px 2px #353232;
+    text-shadow: 2px 2px #56626b;
+    font-size: 50px;
 }

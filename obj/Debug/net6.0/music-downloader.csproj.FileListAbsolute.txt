@@ -56,3 +56,9 @@ C:\Users\User\music-downloader\obj\Debug\net6.0\scopedcss\bundle\music-downloade
 C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.csproj.CopyComplete
 C:\Users\User\music-downloader\obj\Debug\net6.0\music-downloader.genruntimeconfig.cache
 C:\Users\User\music-downloader\obj\Debug\net6.0\ref\music-downloader.dll
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\package-lock.json
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\package.json
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\public\manifest.json
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\tsconfig.json
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\credentials.json
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\Newtonsoft.Json.dll
