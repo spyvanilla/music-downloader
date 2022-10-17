@@ -7,6 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
 
+app.UseStaticFiles();
+app.UsePathBase(new PathString("/api"));
+app.UseRouting();
+
 string GetApiKey()
 {
     using (StreamReader r = new StreamReader("credentials.json"))
@@ -20,7 +24,7 @@ string GetApiKey()
 
 string apiKey = GetApiKey();
 
-app.MapGet("/api/search/{name}", async (string name) =>
+app.MapGet("/search/{name}", async (string name) =>
 {
     HttpClient client = new HttpClient();
     var response = client.GetStringAsync($"https://www.googleapis.com/youtube/v3/search?key={apiKey}&part=snippet&q={name}");
@@ -28,17 +32,19 @@ app.MapGet("/api/search/{name}", async (string name) =>
     return data;
 });
 
-app.MapGet("/api/download-video/{id}", async (string id) =>
+app.MapGet("/download-video/{id}", async (string id) =>
 {
     var ytdl = new YoutubeDL();
-    ytdl.OutputFolder = "videos/";
+    ytdl.OutputFolder = "wwwroot/";
     ytdl.FFmpegPath = "ffmpeg.exe";
     ytdl.YoutubeDLPath = "yt-dlp.exe";
 
     var res = await ytdl.RunAudioDownload($"https://www.youtube.com/watch?v={id}", YoutubeDLSharp.Options.AudioConversionFormat.Mp3);
-
     Console.WriteLine(res.Success);
+
     string path = res.Data;
+    Console.WriteLine(res.Data);
+
     return Results.Ok();
 });
 

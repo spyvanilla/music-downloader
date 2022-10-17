@@ -1,28 +1,39 @@
 import React from 'react';
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 
 import Loading from '../../Components/Loading';
 import DisplayVideos from '../../Components/DisplayVideos';
+import DownloadVideo from '../../Components/DownloadVideo';
 
 import './home.css';
 
 function Home() {
     const [searchQuery,setSearchQuery] = useState('');
     const [videos,setVideos] = useState<any>(null);
+    const [chosenVideo,setChosenVideo] = useState<any>(null);
     const [loading,setLoading] = useState(false);
 
     const handleSubmit = (event: any) => {
         event.preventDefault();
-        setLoading(true);
 
-        fetch(`/api/search/${searchQuery}`)
-        .then(response => response.json())
-        .then(data => {
-            console.log(data.items);
-            setVideos(data.items);
-            setLoading(false);
-        });
+        if (searchQuery.length > 0) {
+            setLoading(true);
+
+            fetch(`/api/search/${searchQuery}`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data.items);
+                setVideos(data.items);
+                setLoading(false);
+            });
+        }
     }
+
+    useEffect(() => {
+        if (chosenVideo) {
+            setLoading(false);
+        }
+    },[chosenVideo])
 
     return (
         <>
@@ -34,7 +45,11 @@ function Home() {
         </form>
         {!loading ? (
             <>
-            {videos === null ? '' : <DisplayVideos videos={videos} />}
+            {videos === null ? '' : (
+                <>
+                {chosenVideo === null ? <DisplayVideos videos={videos} setChosenVideo={setChosenVideo} setLoading={setLoading} /> : <DownloadVideo chosenVideo={chosenVideo} setChosenVideo={setChosenVideo} />}
+                </>
+            )}
             </>
         ) : <Loading />}
         </>

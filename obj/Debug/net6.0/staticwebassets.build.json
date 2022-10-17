@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "SCO7nTTTfCjI858iggcKbAHuakU32hOI/9bBrzNEdno=",
+  "Hash": "7ZzAUqyAS++Tqb5QahDOQa4vjo72MQoPKQYGLlh60RA=",
   "Source": "music-downloader",
   "BasePath": "_content/music-downloader",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "music-downloader\\wwwroot",
+      "Source": "music-downloader",
+      "ContentRoot": "C:\\Users\\Levi Barros\\music-downloader\\wwwroot\\",
+      "BasePath": "_content/music-downloader",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
