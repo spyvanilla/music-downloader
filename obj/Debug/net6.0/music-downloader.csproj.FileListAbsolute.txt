@@ -62,3 +62,4 @@ C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\public\manifest.js
 C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\tsconfig.json
 C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\credentials.json
 C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\YoutubeDLSharp.dll

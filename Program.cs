@@ -31,10 +31,15 @@ app.MapGet("/api/search/{name}", async (string name) =>
 app.MapGet("/api/download-video/{id}", async (string id) =>
 {
     var ytdl = new YoutubeDL();
-    ytdl.OutputFolder = "videos";
+    ytdl.OutputFolder = "videos/";
+    ytdl.FFmpegPath = "ffmpeg.exe";
+    ytdl.YoutubeDLPath = "yt-dlp.exe";
 
     var res = await ytdl.RunAudioDownload($"https://www.youtube.com/watch?v={id}", YoutubeDLSharp.Options.AudioConversionFormat.Mp3);
+
+    Console.WriteLine(res.Success);
     string path = res.Data;
+    return Results.Ok();
 });
 
 app.Run();

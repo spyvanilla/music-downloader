@@ -9,7 +9,8 @@
       "music-downloader/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "YoutubeDLSharp": "0.4.2"
         },
         "runtime": {
           "music-downloader.dll": {}
@@ -69,6 +70,17 @@
             "fileVersion": "6.2.3.0"
           }
         }
+      },
+      "YoutubeDLSharp/0.4.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/YoutubeDLSharp.dll": {
+            "assemblyVersion": "0.4.2.2271",
+            "fileVersion": "0.4.2.2271"
+          }
+        }
       }
     }
   },
@@ -126,6 +138,13 @@
       "sha512": "sha512-bCRI87uKJVb4G+KURWm8LQrL64St04dEFZcF6gIM67Zc0Sr/N47EO83ybLMYOvfNdO1DCv8xwPcrz9J/VEhQ5g==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    },
+    "YoutubeDLSharp/0.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-stCv177Vm2vc0a8UZiOZ7RNGcAmYL1ygqrQVxobjFmpExGBQVVcWwEJKWdK+K7DMLWowJrrZMuQB12iaVOQ8GA==",
+      "path": "youtubedlsharp/0.4.2",
+      "hashPath": "youtubedlsharp.0.4.2.nupkg.sha512"
     }
   }
 }
