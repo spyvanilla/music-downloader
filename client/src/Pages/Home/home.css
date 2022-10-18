@@ -1,8 +1,19 @@
 h1 {
+    opacity: 0;
     margin-top: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif', serif;
     color: #8233C5;
-    font-size: 100px;
+    font-size: 80px;
+    animation: titleAppear 1s;
+    animation-fill-mode: forwards;
+}
+
+p {
+    opacity: 0;
+    font-size: 25px;
+    animation: titleAppear 1s;
+    animation-delay: 200ms;
+    animation-fill-mode: forwards;
 }
 
 #loading {
@@ -33,4 +44,37 @@ h1 {
     width: 270px;
     height: 270px;
     object-fit: cover;
+}
+
+.video button {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: linear 0.2s;
+}
+
+.video button:hover {
+    background-color: RoyalBlue;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@keyframes titleAppear {
+    0% {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
 }

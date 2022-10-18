@@ -38,8 +38,8 @@ function Home() {
     return (
         <>
         <h1>Music Downloader</h1>
-        <h2>Search for songs you like and download them</h2>
-        <form onSubmit={handleSubmit}>
+        <p>Search for songs you like and download them</p>
+        <form onSubmit={handleSubmit} id="search-bar">
             <input type="text" value={searchQuery} onChange={event => setSearchQuery(event.target.value)}></input>
             <input type="submit" value="Search"></input>
         </form>

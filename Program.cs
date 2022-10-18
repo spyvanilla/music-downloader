@@ -5,8 +5,13 @@ using YoutubeDLSharp;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+    {
+        builder.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader();
+    }));
 var app = builder.Build();
 
+app.UseCors("corsapp");
 app.UseStaticFiles();
 app.UsePathBase(new PathString("/api"));
 app.UseRouting();
