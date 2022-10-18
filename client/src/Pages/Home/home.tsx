@@ -43,7 +43,7 @@ function Home() {
         <h1>Music Downloader</h1>
         <p>Search for songs you like and download them</p>
         <form onSubmit={handleSubmit} id="search-bar">
-            <input type="text" value={searchQuery} onChange={event => setSearchQuery(event.target.value)} maxLength={2048}></input>
+            <input type="text" value={searchQuery} placeholder="Search for a song you like..." onChange={event => setSearchQuery(event.target.value)} maxLength={2048}></input>
             <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
         </form>
         {!loading ? (

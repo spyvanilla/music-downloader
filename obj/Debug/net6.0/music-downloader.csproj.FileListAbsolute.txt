@@ -64,3 +64,37 @@ C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\credentials.json
 C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\YoutubeDLSharp.dll
 C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\music-downloader.staticwebassets.runtime.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\appsettings.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\client\package-lock.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\client\package.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\client\public\manifest.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\client\tsconfig.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\music-downloader.staticwebassets.runtime.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\music-downloader.exe
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\music-downloader.deps.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\music-downloader.runtimeconfig.json
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\music-downloader.dll
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\music-downloader.pdb
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\davi_\music-downloader\bin\Debug\net6.0\YoutubeDLSharp.dll
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.csproj.AssemblyReference.cache
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.AssemblyInfoInputs.cache
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.AssemblyInfo.cs
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.csproj.CoreCompileInputs.cache
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\scopedcss\bundle\music-downloader.styles.css
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.csproj.CopyComplete
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.dll
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\refint\music-downloader.dll
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.pdb
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.genruntimeconfig.cache
+C:\Users\davi_\music-downloader\obj\Debug\net6.0\ref\music-downloader.dll

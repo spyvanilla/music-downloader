@@ -1,7 +1,7 @@
 h1 {
     opacity: 0;
     margin-top: 50px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #c4302b;
     font-size: 80px;
     animation: titleAppear 1.5s;
@@ -40,6 +40,7 @@ p {
     width: 300px;
     border-radius: 20px;
     padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #search-bar button {
@@ -51,6 +52,14 @@ p {
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
+    transition: linear 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#search-bar button:hover {
+    color: #fff;
+    background: #c4302b;
+    scale: 1.1;
 }
 
 #videos {
