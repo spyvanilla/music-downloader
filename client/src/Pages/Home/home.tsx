@@ -5,6 +5,9 @@ import Loading from '../../Components/Loading';
 import DisplayVideos from '../../Components/DisplayVideos';
 import DownloadVideo from '../../Components/DownloadVideo';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
+
 import './home.css';
 
 function Home() {
@@ -22,7 +25,7 @@ function Home() {
             fetch(`/api/search/${searchQuery}`)
             .then(response => response.json())
             .then(data => {
-                console.log(data.items);
+                setChosenVideo(null);
                 setVideos(data.items);
                 setLoading(false);
             });
@@ -40,8 +43,8 @@ function Home() {
         <h1>Music Downloader</h1>
         <p>Search for songs you like and download them</p>
         <form onSubmit={handleSubmit} id="search-bar">
-            <input type="text" value={searchQuery} onChange={event => setSearchQuery(event.target.value)}></input>
-            <input type="submit" value="Search"></input>
+            <input type="text" value={searchQuery} onChange={event => setSearchQuery(event.target.value)} maxLength={2048}></input>
+            <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
         </form>
         {!loading ? (
             <>

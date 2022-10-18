@@ -45,7 +45,12 @@ app.MapGet("/download-video/{id}", async (string id) =>
     ytdl.YoutubeDLPath = "yt-dlp.exe";
 
     var res = await ytdl.RunAudioDownload($"https://www.youtube.com/watch?v={id}", YoutubeDLSharp.Options.AudioConversionFormat.Mp3);
-    Console.WriteLine(res.Success);
+    Console.WriteLine(res.Success ? "Downloaded successfully" : "An error occurred while trying to download");
+
+    if (!res.Success)
+    {
+        return Results.NotFound();
+    }
 
     string path = res.Data;
     Console.WriteLine(res.Data);

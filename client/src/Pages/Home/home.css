@@ -2,16 +2,16 @@ h1 {
     opacity: 0;
     margin-top: 50px;
     font-family: 'Noto Serif', serif;
-    color: #8233C5;
+    color: #c4302b;
     font-size: 80px;
-    animation: titleAppear 1s;
+    animation: titleAppear 1.5s;
     animation-fill-mode: forwards;
 }
 
 p {
     opacity: 0;
     font-size: 25px;
-    animation: titleAppear 1s;
+    animation: titleAppear 1.5s;
     animation-delay: 200ms;
     animation-fill-mode: forwards;
 }
@@ -21,6 +21,36 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+}
+
+#search-bar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: searchBarAppear 1s;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+}
+
+#search-bar input[type="text"] {
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+#search-bar button {
+    border: none;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    color: #c4302b;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 #videos {
@@ -33,31 +63,79 @@ p {
 }
 
 .video {
+    opacity: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
+    animation: videoEntrance 700ms ease-out;
+    animation-fill-mode: forwards;
 }
 
-.video img {
+.video:nth-child(2) {
+    animation-delay: 200ms;
+}
+
+.video:nth-child(3) {
+    animation-delay: 300ms;
+}
+
+.video:nth-child(4) {
+    animation-delay: 400ms;
+}
+
+.video:nth-child(5) {
+    animation-delay: 500ms;
+}
+
+.video-image {
     width: 270px;
     height: 270px;
     object-fit: cover;
+    border-radius: 5px;
+    transition: linear 0.1s;
+    cursor: pointer;
+}
+
+.video-image:hover {
+    scale: 1.1;
+    opacity: 0.5;
+}
+
+.video h3 {
+    width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.open-video {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: linear 0.1s;
+}
+
+.open-video:hover {
+    color: #c4302b;
+    scale: 1.1;
 }
 
 .video button {
-    background-color: DodgerBlue;
+    border-radius: 5px;
+    background-color: #c4302b;
     border: none;
     color: white;
     padding: 12px 30px;
+    width: 147px;
     cursor: pointer;
     font-size: 20px;
     transition: linear 0.2s;
 }
 
 .video button:hover {
-    background-color: RoyalBlue;
+    background-color: #77211e;
 }
 
 @media (max-width: 768px) {
@@ -76,5 +154,29 @@ p {
         opacity: 1;
         filter: blur(0);
         transform: translateX(0);
+    }
+}
+
+@keyframes searchBarAppear {
+    0% {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes videoEntrance {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
     }
 }

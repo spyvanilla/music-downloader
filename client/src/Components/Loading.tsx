@@ -5,7 +5,7 @@ import ClockLoader from 'react-spinners/ClockLoader';
 function Loading() {
     return (
         <div id="loading">
-            <ClockLoader color="#8233C5" size={75} />
+            <ClockLoader color="#c4302b" size={75} />
         </div>
     )
 }
