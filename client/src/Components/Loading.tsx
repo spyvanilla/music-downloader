@@ -1,11 +1,11 @@
 import react from 'react';
 
-import ClockLoader from 'react-spinners/ClockLoader';
+import SyncLoader from 'react-spinners/SyncLoader';
 
 function Loading() {
     return (
         <div id="loading">
-            <ClockLoader color="#c4302b" size={75} />
+            <SyncLoader color="#c4302b" size={25} />
         </div>
     )
 }

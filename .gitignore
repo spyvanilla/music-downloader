@@ -1,4 +1,5 @@
 .vscode
+.vs
 credentials.json
 ffmpeg.exe
 yt-dlp.exe

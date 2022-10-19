@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6KRi1Us/Vw53mgoF5BA2s7EUjNMCNrdwEFxwj9X4w6g=",
+  "Hash": "7ZzAUqyAS++Tqb5QahDOQa4vjo72MQoPKQYGLlh60RA=",
   "Source": "music-downloader",
   "BasePath": "_content/music-downloader",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "music-downloader\\wwwroot",
       "Source": "music-downloader",
-      "ContentRoot": "C:\\Users\\davi_\\music-downloader\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Levi Barros\\music-downloader\\wwwroot\\",
       "BasePath": "_content/music-downloader",
       "Pattern": "**"
     }
