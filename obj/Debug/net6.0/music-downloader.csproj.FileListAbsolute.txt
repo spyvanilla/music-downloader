@@ -98,3 +98,5 @@ C:\Users\davi_\music-downloader\obj\Debug\net6.0\refint\music-downloader.dll
 C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.pdb
 C:\Users\davi_\music-downloader\obj\Debug\net6.0\music-downloader.genruntimeconfig.cache
 C:\Users\davi_\music-downloader\obj\Debug\net6.0\ref\music-downloader.dll
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\build\asset-manifest.json
+C:\Users\Levi Barros\music-downloader\bin\Debug\net6.0\client\build\manifest.json

@@ -8,7 +8,6 @@
 ```
 
 - After that, you'll need to download <a href="https://ffmpeg.org/download.html">FFmpeg</a> and <a href="https://github.com/yt-dlp/yt-dlp#installation">yt-dlp</a> and put both of them in the root directory
-- The last setup you'll need to do is create a ```wwwroot``` directory in the root of the project
 
 # How to run
 - Start two terminals in the root directory
