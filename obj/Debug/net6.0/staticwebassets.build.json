@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7ZzAUqyAS++Tqb5QahDOQa4vjo72MQoPKQYGLlh60RA=",
+  "Hash": "+2IrLgw2ovyK2XgO10yNoizUdH741uTma+enNKxT8xk=",
   "Source": "music-downloader",
   "BasePath": "_content/music-downloader",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Levi Barros\\music-downloader\\wwwroot\\.gitkeep",
+      "SourceId": "music-downloader",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Levi Barros\\music-downloader\\wwwroot\\",
+      "BasePath": "_content/music-downloader",
+      "RelativePath": ".gitkeep",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\.gitkeep"
+    }
+  ]
 }

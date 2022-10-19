@@ -106,7 +106,7 @@ p {
     width: 270px;
     height: 270px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: linear 0.1s;
     cursor: pointer;
 }
@@ -149,6 +149,49 @@ p {
 
 .video button:hover {
     background-color: #77211e;
+}
+
+.download-video {
+    margin-top: 50px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation: titleAppear 1s;
+    animation-fill-mode: forwards;
+}
+
+#download-button {
+    border-radius: 5px;
+    background-color: #c4302b;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: linear 0.2s;
+}
+
+#download-button:hover {
+    background-color: #77211e;
+}
+
+#cancel-button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: linear 0.1s;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#cancel-button:hover {
+    scale: 1.1;
+    color: #c4302b;
 }
 
 @media (max-width: 768px) {
